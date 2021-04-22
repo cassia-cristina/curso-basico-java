@@ -1,5 +1,4 @@
-# curso-basico-java
-Curso básico de Java
+# Curso básico de JAVA
 
 Arquivos do Curso de Java e Orientação a objetos
 
