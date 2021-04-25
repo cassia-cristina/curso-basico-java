@@ -16,7 +16,7 @@ public class MostraArea {
 		//Calculo da area é A = π . r²
 		double area = Math.PI * Math.pow(raio, 2);
 		
-		DecimalFormat formata = new DecimalFormat(".00");
+		DecimalFormat formata = new DecimalFormat("###.00");
 		
 		System.out.println("A área do círculo é: " + formata.format(area));
 
