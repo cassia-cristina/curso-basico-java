@@ -8,10 +8,10 @@ public class MostraSoma {
 	public static void main(String[] args) {
 		scan = new Scanner(System.in);
 		
-		System.out.println("Informe um número: ");
+		System.out.println("Informe um número:");
 		int a = scan.nextInt();
 		
-		System.out.println("Informe um segundo número: ");
+		System.out.println("Informe um segundo número:");
 		int b = scan.nextInt();
 		
 		int soma = a+b; 
