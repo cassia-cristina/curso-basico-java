@@ -13,11 +13,8 @@ public class MostraArea {
 		System.out.println("Informe o raio do círculo:");
 		double raio = scan.nextDouble();
 		
-		//Exponencial
-		double expo = Math.pow(raio, 2);
-		
 		//Calculo da area é A = π . r²
-		double area = 3.14 * expo;
+		double area = Math.PI * Math.pow(raio, 2);
 		
 		DecimalFormat formata = new DecimalFormat(".00");
 		
