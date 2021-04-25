@@ -15,11 +15,11 @@ public class CalculaTemperaturaFarenheit {
 		
 		// Formula:  F =  (32 + (9/5 * C))
 
-		double farenheit =  (32 + (9.0/5.0 * celsius));
+		double farenheit =  (celsius * 1.8) + 32;
 		
 		DecimalFormat df = new DecimalFormat (".00");
 				
-		System.out.println("Temperatura em Farenheit: " + df.format(farenheit));
+		System.out.println("Temperatura em Farenheit: " + df.format(farenheit) + " F");
 		
 		
 

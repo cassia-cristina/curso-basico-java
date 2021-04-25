@@ -20,17 +20,15 @@ public class CalculoOperacoes {
 		
 		var calculo1 = (valor1*2) * (valor2/2);
 		
-		var calculo2 = (valor1*3) + (valor3);
+		var calculo2 = (valor1*3) + valor3;
 		
-		var calculo3 = Math.pow(valor3, 2);
-		
+		var calculo3 = Math.pow(valor3, 3);		
 		
 		System.out.println("Produto do dobro do primeiro valor com metade do segundo valor: " + calculo1);
 		
 		System.out.println("Soma do triplo do primeiro valor com o terceiro valor: " + calculo2);
 		
 		System.out.println("Terceiro valor elevado ao cubo: " + calculo3);
-				
 				
 
 	}

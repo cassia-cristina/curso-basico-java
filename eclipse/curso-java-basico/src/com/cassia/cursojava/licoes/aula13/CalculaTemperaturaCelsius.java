@@ -18,7 +18,7 @@ public class CalculaTemperaturaCelsius {
 		
 		DecimalFormat df = new DecimalFormat (".0000");
 				
-		System.out.println("Temperatura em Celsius: " + df.format(celsius));
+		System.out.println("Temperatura em Celsius: " + df.format(celsius) + " C");
 		
 		
 

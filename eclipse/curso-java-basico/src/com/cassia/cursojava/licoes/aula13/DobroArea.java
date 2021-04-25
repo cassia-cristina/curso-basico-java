@@ -18,7 +18,7 @@ public class DobroArea {
 		double area = Math.pow(lado, 2);
 		double dobro = area*2;
 		
-		DecimalFormat formata = new DecimalFormat();
+		DecimalFormat formata = new DecimalFormat("###.00");
 		
 		System.out.println("O valor da área é: " + formata.format(area));
 		System.out.println("O dobro da área é: " + formata.format(dobro));

@@ -14,14 +14,13 @@ public class TotalSalario {
 		System.out.println("Qual o número de horas trabalhadas no mês?");
 		double horas = scan.nextDouble();
 		
-		double calculo = valor*horas;
+		double salario = valor*horas;
 		
 		DecimalFormat df = new DecimalFormat(".00");
 		
-		System.out.println("Salário bruto no mês: R$ " + df.format(calculo));
+		System.out.println("Salário bruto no mês: R$ " + df.format(salario));
 		
 		 
-
 	}
 
 }
