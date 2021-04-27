@@ -34,8 +34,10 @@ public class SalarioComReajuste {
 		
 		double novoSalario = salario+reajuste;
 		
-		System.out.println("Salário anterior: R$" + df.format(salario) + " - Percentual aplicado: " + percentual + "% - Valor do reajuste: R$" + df.format(reajuste) + " - Salário com reajuste: R$" + df.format(novoSalario));
-		
+		System.out.println("Salário anterior: R$ " + df.format(salario));
+		System.out.println("Percentual aplicado: " + percentual+"%");
+		System.out.println("Valor do reajuste: R$ " + df.format(reajuste));
+		System.out.println("Salário com reajuste: R$ " + df.format(novoSalario));
 
 	}
 
