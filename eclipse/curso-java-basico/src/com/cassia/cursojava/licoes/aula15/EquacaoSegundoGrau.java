@@ -22,7 +22,19 @@ public class EquacaoSegundoGrau {
 			System.out.println("Informe o valor de c");
 			int c = scan.nextInt();
 			
-			double delta = (Math.pow(a, 2)) - (4*a*c);
+			double delta = (b*b) - (4*a*c);
+			
+			if (delta<0) {
+				System.out.println("Delta negativo!");
+			} else {
+				System.out.println("Delta: " + delta);
+				
+				double x1 = ((-b) + Math.sqrt(delta)) / (2*a);
+				double x2 = ((-b) - Math.sqrt(delta)) / (2*a);
+				
+				System.out.println("X1: " + x1);
+				System.out.println("X2: " + x2);
+			}
 		
 		}
 
