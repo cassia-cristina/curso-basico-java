@@ -14,7 +14,7 @@ public class ValidaInformacoes {
 		String nome;
 		int idade;
 		double salario;
-		String sexo;
+		String genero;
 		String estadoCivil;
 		DecimalFormat df = new DecimalFormat(".00");
 		
@@ -63,13 +63,13 @@ public class ValidaInformacoes {
 		
 		
 		do {
-			System.out.println("Informe o sexo (F ou M):");
-			sexo = scan.next();
+			System.out.println("Informe o gênero (F ou M):");
+			genero = scan.next();
 						
-			if(sexo.equalsIgnoreCase("F") || sexo.equalsIgnoreCase("M")) {
+			if(genero.equalsIgnoreCase("F") || genero.equalsIgnoreCase("M")) {
 				valida = true;
 			} else {
-				System.out.println("Opção inválida! Opção informada: " + sexo);
+				System.out.println("Opção inválida! Opção informada: " + genero);
 			}
 			
 		} while(!valida);
@@ -93,7 +93,7 @@ public class ValidaInformacoes {
 		System.out.println("Nome: " + nome);
 		System.out.println("Idade: " + idade);
 		System.out.println("Salário: " + df.format(salario));
-		System.out.println("Sexo: " + sexo);
+		System.out.println("Sexo: " + genero);
 		System.out.println("Estado Civil: " + estadoCivil);
 	
 	}
