@@ -11,12 +11,10 @@ public class ValidaInformacoes {
 		scan = new Scanner(System.in);
 		
 		boolean valida = false;
-		String nome;
+		String nome, genero, estadoCivil;
 		int idade;
 		double salario;
-		String genero;
-		String estadoCivil;
-		DecimalFormat df = new DecimalFormat(".00");
+		DecimalFormat df = new DecimalFormat("#,###.00");
 		
 		
 		do {
