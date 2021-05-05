@@ -15,7 +15,7 @@ public class ImprimeFatorial {
 		
 		
 		for(int i=num-1; i >= 1; i--) {
-			fatorial = fatorial * i;
+			fatorial *= i;
 		}
 		
 		System.out.println("Fatorial de " + num + " é: " + fatorial);
