@@ -1,7 +1,7 @@
 package com.cassia.cursojava.licoes.aula19;
 import java.util.Scanner;
 
-public class Vetores {
+public class Vetores12 {
 	
 	public static Scanner scan;
 
@@ -9,15 +9,12 @@ public class Vetores {
 		
 		scan = new Scanner(System.in);
 		
-		int[] vetorA = new int[5];
-		int[] vetorB = new int[vetorA.length];
+		int[] vetorA = new int[10];
+		int soma = 0;
 		
-	
-		//Vetor B é = Vetor A
-		for(int i=0; i<vetorA.length; i++) {
+		for (int i=0; i<vetorA.length; i++) {
 			System.out.println("Informe o valor da posição " + i);
 			vetorA[i] = scan.nextInt();
-			vetorB[i] = vetorA[i];
 		}
 		
 		System.out.print("Vetor A = ");
@@ -28,11 +25,13 @@ public class Vetores {
 		
 		System.out.println();
 		
-		System.out.print("Vetor B = ");
+		System.out.print("Soma dos elementos do vetor A = ");
 		
 		for (int i=0; i<vetorA.length; i++) {
-			System.out.print(vetorB[i] + " ");
+			soma += vetorA[i];
 		}
+		
+		System.out.print(soma);
 
 	}
 
