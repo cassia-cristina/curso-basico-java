@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class LetraInformada {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		System.out.println("Informe F para feminino ou M para masculino:");
 		String letra = scan.nextLine();
 				

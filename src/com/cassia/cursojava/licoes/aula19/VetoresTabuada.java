@@ -12,7 +12,7 @@ public class VetoresTabuada {
 		
 		for(int i=0; i<vetorA.length; i++) {
 			
-			System.out.println("Informe o valor da posição A -" + i);
+			System.out.println("Informe um valor para a posição: " + (i+1));
 			vetorA[i] = scan.nextInt();
 			
 		}

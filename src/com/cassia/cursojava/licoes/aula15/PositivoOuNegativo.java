@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class PositivoOuNegativo {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		System.out.println("Informe um número inteiro (positivo ou negativo)");
 		int numero = scan.nextInt();
 		

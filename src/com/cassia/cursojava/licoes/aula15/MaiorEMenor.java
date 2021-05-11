@@ -4,9 +4,11 @@ import java.util.Scanner;
 public class MaiorEMenor {
 		
 	
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		
 		System.out.println("Informe um número inteiro:");
 		int numero1 = scan.nextInt();
