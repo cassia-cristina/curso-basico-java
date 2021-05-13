@@ -10,7 +10,6 @@ public class MatrizParImpar {
 		int [][] matriz = new int[3][3];
 		
 		scan = new Scanner(System.in);
-		int valor;
 		
 		int qtdPares = 0;
 		int qtdImpares = 0;
@@ -18,13 +17,11 @@ public class MatrizParImpar {
 		for(int i=0; i<matriz.length; i++) {
 			for(int j=0; j<matriz[i].length; j++) {
 				System.out.println("Informe um valor para a linha " + i + " - Coluna " + j + ":");
-				valor = scan.nextInt();
-				matriz[i][j] = valor;
+				matriz[i][j] = scan.nextInt();
 				
 				if(matriz[i][j] % 2 == 0) {
 					qtdPares++;
-				}
-				if(matriz[i][j] % 2 != 0) {
+				} else {
 					qtdImpares++;
 				}
 				
