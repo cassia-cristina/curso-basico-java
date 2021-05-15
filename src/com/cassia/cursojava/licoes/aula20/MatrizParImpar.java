@@ -28,11 +28,21 @@ public class MatrizParImpar {
 			}
 		} //fim do for
 		
-		
+		/*
 		for(int i=0; i<matriz.length; i++) {
 			System.out.print("Linha " + i + ": ");			
 			for(int j=0; j<matriz[i].length; j++) {
 				System.out.print(matriz[i][j] + "  ");
+			}
+			System.out.println();
+		}*/
+		
+		int linha = 0;		
+		for(int[] vetor : matriz) {
+			System.out.print("Linha " + linha + ": ");
+			linha++;
+			for(int num : vetor) {
+				System.out.print(num +  " ");
 			}
 			System.out.println();
 		}
