@@ -1,6 +1,6 @@
 package com.cassia.cursojava.licoes.aula24;
 
-public class UmaLampada {
+public class Lampadas {
 
 	public static void main(String[] args) {
 

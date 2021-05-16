@@ -2,7 +2,7 @@ package com.cassia.cursojava.licoes.aula24;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class UmLivroBiblioteca {
+public class LivrosDeUmaBiblioteca {
 
 	public static void main(String[] args) {
 		
