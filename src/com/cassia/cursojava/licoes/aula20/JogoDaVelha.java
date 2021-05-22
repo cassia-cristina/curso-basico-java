@@ -22,7 +22,7 @@ public class JogoDaVelha {
 		while(!ganhou) {
 			
 			if(jogada % 2 == 1) { //jogador 1
-				System.out.println("Vez do jogador 1 (X)!.");
+				System.out.println("Vez do jogador 1 (X)!");
 				sinal = 'X';
 			} else {
 				System.out.println("Vez do jogador 2 (O)!");
