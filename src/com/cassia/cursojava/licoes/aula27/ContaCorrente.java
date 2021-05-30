@@ -1,5 +1,4 @@
 package com.cassia.cursojava.licoes.aula27;
-import java.text.DecimalFormat;
 
 public class ContaCorrente {
 	
@@ -33,7 +32,7 @@ public class ContaCorrente {
 	}
 	
 	void consultarSaldo() {
-		System.out.println("Saque atual da conta: " + saldo);
+		System.out.println("Saldo atual da conta: " + saldo);
 	}
 	
 	void mostrarConta() {
