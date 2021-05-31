@@ -2,8 +2,6 @@ package com.cassia.cursojava.aula33;
 
 public class MinhaCalculadora {
 	
-	int[] vetor;
-	
 	public int soma (int num1, int num2) {
 		return num1+num2;
 	}
@@ -17,10 +15,9 @@ public class MinhaCalculadora {
 	}
 	
 	public int soma (int[] vetor) {
-		this.vetor = vetor;
 		int total = 0;
-		for (int i : vetor) {
-			total+=i;
+		for (int v : vetor) {
+			total+=v;
 		}
 		return total;
 	}

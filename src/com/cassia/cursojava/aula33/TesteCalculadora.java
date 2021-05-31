@@ -6,19 +6,13 @@ public class TesteCalculadora {
 
 		MinhaCalculadora calc = new MinhaCalculadora();
 		
-		calc.vetor = new int[3];
-		
-		calc.vetor[0] = 1;
-		calc.vetor[1] = 5;
-		calc.vetor[2] = 3;
-		
+		int[] soma = new int[] {1,5,3};
 
 		System.out.println(calc.soma(4, 6));
 		
 		System.out.println(calc.soma(1.5, 0.1));
 		
-		System.out.println(calc.soma(calc.vetor));
-		
+		System.out.println(calc.soma(soma));
 		
 		
 	}
