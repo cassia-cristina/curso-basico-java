@@ -1,6 +1,6 @@
-package com.cassia.cursojava.licoes.aula34;
+package com.cassia.cursojava.aula34;
 
-public class MinhaCalculadora {
+public class MinhaCalculadora2 {
 
 	public static int soma (int num1, int num2) {
 		return num1+num2;
