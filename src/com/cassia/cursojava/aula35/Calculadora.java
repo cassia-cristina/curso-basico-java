@@ -24,7 +24,7 @@ public class Calculadora {
 	
 	public static int calcularFatorial(int num3) {
 		
-		if(num3 == 0) {
+		if(num3 <= 1) {
 			return 1;
 		}
 		
