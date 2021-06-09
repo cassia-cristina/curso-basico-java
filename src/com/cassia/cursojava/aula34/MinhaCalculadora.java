@@ -1,6 +1,7 @@
 package com.cassia.cursojava.aula34;
 
 public class MinhaCalculadora {
+	//Variáveis e métodos estáticos
 	
 	int[] vetor;
 	

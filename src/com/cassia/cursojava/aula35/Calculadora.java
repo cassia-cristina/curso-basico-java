@@ -1,6 +1,7 @@
 package com.cassia.cursojava.aula35;
 
 public class Calculadora {
+	//Recursividade
 
 	public static int somar(int num1, int num2) {
 		return num1+num2;

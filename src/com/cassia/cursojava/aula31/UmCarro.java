@@ -2,6 +2,8 @@ package com.cassia.cursojava.aula31;
 
 import com.cassia.cursojava.aula30.Carro;
 
+//Modificadores public e private
+
 public class UmCarro {
 
 	public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package com.cassia.cursojava.aula37;
+package com.cassia.cursojava.aula39;
 
 public class Professor extends Pessoa {
-	//Conceitos de Herança
+	//Conceitos de Herança, modificadores de acesso e protected
 	
 	private double salario;
 	private String nomeCurso;

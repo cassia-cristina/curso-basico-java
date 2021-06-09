@@ -2,6 +2,8 @@ package com.cassia.cursojava.aula32;
 
 public class Carro {
 	
+	//Encapsulamento
+	
 	private String modelo;
 	private String marca;
 	private int numPassageiros;

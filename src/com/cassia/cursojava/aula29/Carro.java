@@ -2,6 +2,8 @@ package com.cassia.cursojava.aula29;
 
 public class Carro {
 	
+	//Construtores
+	
 	String modelo;
 	String marca;
 	int numPassageiros;

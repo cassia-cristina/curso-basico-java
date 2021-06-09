@@ -1,7 +1,7 @@
-package com.cassia.cursojava.aula37;
+package com.cassia.cursojava.aula40;
 
 public class Pessoa {
-	//Conceitos de Herança
+	//Herança e Polimorfismo
 
 	private String nome;
 	private String endereco;
@@ -41,6 +41,10 @@ public class Pessoa {
 	}
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
+	}
+	
+	public String obterEtiquetaEndereco() {
+		return this.endereco;
 	}
 	
 		

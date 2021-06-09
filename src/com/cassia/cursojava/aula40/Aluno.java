@@ -1,7 +1,7 @@
-package com.cassia.cursojava.aula37;
+package com.cassia.cursojava.aula40;
 
 public class Aluno extends Pessoa {
-	//Conceitos de Herança
+	//Herança e Polimorfismo
 	
 	private String[] cursos;
 	private double[] notas;
@@ -35,6 +35,12 @@ public class Aluno extends Pessoa {
 	
 	public boolean verificarAprovado() {
 		return true;
+	}
+	
+	public String obterEtiquetaEndereco() {
+		String s = "Endereço do Aluno: ";
+		s += this.getEndereco();
+		return s;
 	}
 
 }

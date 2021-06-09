@@ -1,13 +1,12 @@
-package com.cassia.cursojava.aula37;
+package com.cassia.cursojava.aula41;
 
-public class Pessoa {
-	//Conceitos de Herança
+public abstract class Pessoa {
+	//Herança e Classes abstratas
 
 	private String nome;
 	private String endereco;
 	private String telefone;
 	private String cpf;
-	
 	
 	public Pessoa() { }
 	
@@ -42,6 +41,10 @@ public class Pessoa {
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
+	
+	public abstract String obterEtiquetaEndereco();
+	
+	public abstract void imprimirEtiquetaEndereco();
 	
 		
 }

@@ -1,7 +1,7 @@
-package com.cassia.cursojava.aula37;
+package com.cassia.cursojava.aula41;
 
 public class Professor extends Pessoa {
-	//Conceitos de Herança
+	//Herança e Classes abstratas
 	
 	private double salario;
 	private String nomeCurso;
@@ -21,6 +21,18 @@ public class Professor extends Pessoa {
 	
 	public double calcularSalarioLiquido() {
 		return 0;
+	}
+	
+	public String obterEtiquetaEndereco() {
+		String s = "Endereço do Professor: ";
+		s += this.getEndereco();
+		return s;
+	}
+	
+	@Override
+	public void imprimirEtiquetaEndereco() {
+		System.out.println(this.obterEtiquetaEndereco());
+		
 	}
 	
 	

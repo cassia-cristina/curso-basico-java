@@ -2,6 +2,8 @@ package com.cassia.cursojava.aula27;
 
 public class Carro {
 	
+	//Introdução a métodos com parâmetros
+	
 	String modelo;
 	String marca;
 	int numPassageiros;

@@ -1,6 +1,7 @@
 package com.cassia.cursojava.aula36;
 
 public class Telefone {
+	//Relacionamento entre classes
 	
 	private String ddd;
 	private String numero;

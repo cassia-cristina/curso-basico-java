@@ -1,6 +1,7 @@
 package com.cassia.cursojava.aula36;
 
 public class Endereco {
+	//Relacionamento entre classes
 	
 	private String logradouro;
 	private String complemento;

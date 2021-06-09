@@ -2,6 +2,8 @@ package com.cassia.cursojava.aula30;
 
 public class Carro {
 	
+	//Utilizando this
+	
 public String modelo;
 	String marca;
 	int numPassageiros;

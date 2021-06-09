@@ -1,12 +1,14 @@
-package com.cassia.cursojava.aula37;
+package com.cassia.cursojava.aula39;
 
 public class Pessoa {
-	//Conceitos de Herança
+	//Conceitos de Herança, modificadores de acesso e protected
 
 	private String nome;
 	private String endereco;
 	private String telefone;
 	private String cpf;
+	
+	protected String nomeVisibilidade;
 	
 	
 	public Pessoa() { }

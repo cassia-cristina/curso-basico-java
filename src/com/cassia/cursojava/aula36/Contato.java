@@ -1,6 +1,7 @@
 package com.cassia.cursojava.aula36;
 
 public class Contato {
+	//Relacionamento entre classes
 	
 	private String nome;
 	private Endereco endereco;
