@@ -1,6 +1,6 @@
-# Curso básico de JAVA
+# Curso básico de JAVA :coffee:
 
-Arquivos do Curso de Java e Orientação a objetos
+**Arquivos do Curso de Java e Orientação a objetos**
 
 https://loiane.training/
 
